@@ -1,0 +1,19 @@
+nav {
+    background-color: #ffffff00;
+    box-shadow: none;
+    height: 10rem;
+    padding-bottom: 0;
+}
+
+.nav2 {
+    height: 3rem !important;
+    color: rgb(72, 78, 90)
+}
+
+.logo {
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
