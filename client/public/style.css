@@ -100,6 +100,8 @@ nav {
 .notification {
     text-align: center;
     color: rgb(72, 78, 90);
+    font-weight: bold;
+    margin-bottom: 1rem
     /* margin-top: 7%;
     margin-bottom: 5% */
 }

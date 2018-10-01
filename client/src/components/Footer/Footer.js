@@ -26,7 +26,7 @@ class Footer extends Component {
                 <div className="col m4">
                 <div className="notificationClub">
                     <div>
-                        <p id="signUpText" className="notification">Sign up for our newsletter!</p>
+                        <h6 id="signUpText" className="notification">Sign up for our newsletter!</h6>
                     </div>
                     <div className="row form">
                         <form id="form" className="col s12">
