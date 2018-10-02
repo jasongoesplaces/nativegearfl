@@ -41,11 +41,10 @@ class NavLinks extends Component {
 const Child = () => (
   <ul className="nav3" id="nav3">
     <li className="navlink"><a href="/shop/men" className="linkcolor">Men</a></li>
-    {/* <li className="navlink">|</li> */}
     <li className="navlink"><a href="/shop/women" className="linkcolor">Women</a></li>
-    {/* <li className="navlink">|</li> */}
+    <li className="navlink"><a href="/shop/kids" className="linkcolor">Kids</a></li>
     <li className="navlink"><a href="/shop/hats" className="linkcolor">Hats</a></li>
-    {/* <li className="navlink">|</li> */}
+    <li className="navlink"><a href="/shop/accessories" className="linkcolor">Accessories</a></li>
     <li><a href="/shop/decals" className="linkcolor">Decals</a></li>
   </ul>
 )
