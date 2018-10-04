@@ -8,7 +8,6 @@ import FAQ from "./pages/FAQ";
 import Privacy from "./pages/Privacy";
 import Returns from "./pages/Returns";
 import Terms from "./pages/Terms";
-// import About from "./pages/About";
 // import Login from "./pages/Login";
 // import SignUp from "./pages/Signup";
 // import Logout from "./components/logout"
