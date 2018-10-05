@@ -16,25 +16,31 @@ class Home extends Component {
         ]} />
         <div className="categories">
           <div className="row">
-            <div className="col s6">
-              <a href="/shop/men"><img className="homeImgLarge" src="./images/placeholder4.jpg"/>Men</a>
+            <div className="col s6 container">
+              <a href="/shop/men"><img className="homeImgLarge" src="./images/placeholder4.jpg"/></a>
+              <div className="linkText">Men</div>
             </div>
-            <div className="col s6">
-              <a href="/shop/women"><img className="homeImgLarge" src="./images/placeholder5.jpg"/>Women</a>
+            <div className="col s6 container">
+              <a href="/shop/women"><img className="homeImgLarge" src="./images/placeholder5.jpg"/></a>
+              <div className="linkText">Women</div>
             </div>
           </div>
           <div className="row">
-            <div className="col s6 m3">
-              <a href="/shop/kids"><img className="homeImgSmall" src="./images/placeholder6.jpg"/>Kids</a>
+            <div className="col s6 m3 container">
+              <a href="/shop/kids"><img className="homeImgSmall" src="./images/placeholder6.jpg"/></a>
+              <div className="linkText">Kids</div>
             </div>
-            <div className="col s6 m3">
-              <a href="/shop/hats"><img className="homeImgSmall" src="./images/placeholder7.jpg"/>Hats</a>
+            <div className="col s6 m3 container">
+              <a href="/shop/hats"><img className="homeImgSmall" src="./images/placeholder7.jpg"/></a>
+              <div className="linkText">Hats</div>
             </div>
-            <div className="col s6 m3">
-              <a href="/shop/accessories"><img className="homeImgSmall" src="./images/placeholder8.jpg"/>Accessories</a>
+            <div className="col s6 m3 container">
+              <a href="/shop/accessories"><img className="homeImgSmall" src="./images/placeholder8.jpg"/></a>
+              <div className="linkText">Accessories</div>
             </div>
-            <div className="col s6 m3">
-              <a href="/shop/decals"><img className="homeImgSmall" src="./images/placeholder9.jpg"/>Decals</a>
+            <div className="col s6 m3 container">
+              <a href="/shop/decals"><img className="homeImgSmall" src="./images/placeholder9.jpg"/></a>
+              <div className="linkText">Decals</div>
             </div>
           </div>
         </div>

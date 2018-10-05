@@ -168,6 +168,11 @@ input.invalid[type=email]:not(.browser-default) {
     padding-bottom: 3rem;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+}
+
 .homeImgLarge {
     height: 40rem;
     width: auto;
@@ -176,4 +181,13 @@ input.invalid[type=email]:not(.browser-default) {
 .homeImgSmall {
     height: 20rem;
     width: auto;
+}
+
+.linkText {
+    color: rgb(223, 227, 230);
+    font-weight: bold;
+    position: absolute;
+    font-size: 3rem;
+    top: 5%;
+    left: 12%;
 }
