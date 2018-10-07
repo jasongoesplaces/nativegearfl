@@ -162,28 +162,22 @@ input.invalid[type=email]:not(.browser-default) {
 .carousel {
     height: 35rem;
 }
-
 .categories {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-
 .container {
     position: relative;
     text-align: center;
 }
-
 .homeImgLarge {
     height: 40rem;
     width: auto;
 }
-
-
 .homeImgSmall {
     height: 20rem;
     width: auto;
 }
-
 .linkText {
     color: rgb(223, 227, 230);
     font-weight: bold;
