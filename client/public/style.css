@@ -5,7 +5,6 @@ nav {
     height: 10rem;
     padding-bottom: 0;
 }
-
 .nav2 {
     display: flex;
     flex-direction: row;
@@ -18,11 +17,9 @@ nav {
     margin: 0;
     margin-bottom: 1rem;
 }
-
 #shop:hover {
     cursor: pointer;
 }
-
 .nav3 {
     display: flex;
     flex-direction: row;
@@ -37,15 +34,12 @@ nav {
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
-
 .navlink {
     margin-right: 2rem;
 }
-
 .linkcolor {
     color: rgb(72, 78, 90)
 }
-
 .logo {
     height: 6rem;
     display: flex;
@@ -64,39 +58,31 @@ nav {
     text-align: center;
     padding-top: 2rem
 }
-
 .logofooter {
     height: 3rem;
 }
-
 .social {
     color: rgb(72, 78, 90);
     margin-right: 1rem;
     font-size: 150%;
 }
-
 .social2 {
     color: rgb(72, 78, 90);
     font-size: 150%;
 }
-
 .socialContain {
     margin-top: 1rem
 }
-
 .footerTitle {
     font-weight: bold;
     text-decoration: underline
 }
-
 .infoContain a {
     color: rgb(72, 78, 90);
 }
-
 .form {
     margin-bottom: 0
 }
-
 .notification {
     text-align: center;
     color: rgb(72, 78, 90);
@@ -105,52 +91,41 @@ nav {
     /* margin-top: 7%;
     margin-bottom: 5% */
 }
-
 .notificationClub {
     /* padding-bottom: 4%; */
     padding-top: 1%
 }
-
 .btn {
     background-color: rgb(72, 78, 90);
     color: white
 }
-
 .btn:hover {
     background-color: rgb(223, 227, 230);
 }
-
 .input-field {
     margin-top: 0
 }
-
 .input-field>label {
     color: rgb(72, 78, 90);
 }
-
 input[type=email]:not(.browser-default) {
     border-bottom: 1px solid rgb(72, 78, 90);
 }
-
 input[type=email]:focus + label {
     color: rgb(72, 78, 90) !important;
 }
-
 input[type=email]:focus {
     color: rgb(72, 78, 90) !important;
 }
-
 input[type=email]:not(.browser-default):focus:not([readonly]) {
     border-bottom: 1px solid rgb(72, 78, 90);
     box-shadow: 0 1px 0 0 rgb(72, 78, 90);
 }
-
 input.valid[type=email]:not(.browser-default) {
     border-bottom: 1px solid rgb(72, 78, 90);
     box-shadow: 0 1px 0 0 rgb(72, 78, 90);
     color: rgb(72, 78, 90);
 }
-
 input.invalid[type=email]:not(.browser-default) {
     color: #F44336;
 }
