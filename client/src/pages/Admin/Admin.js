@@ -5,9 +5,6 @@ const LoginView = ({ onSubmit }) => {
     <div className="landerPage">
       <div className="landerCard">
         <div className="container landerContainer">
-          <div className="loginMenu">
-            <img className="logoLander" src="./images/logoLander.png"/>
-          </div>
           <div className="landerContent">
               <div className="loginDiv"></div>
               <form className="col s12 loginField" onSubmit={onSubmit}>
