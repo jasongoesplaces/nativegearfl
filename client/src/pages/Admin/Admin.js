@@ -12,7 +12,7 @@ const LoginView = ({ onSubmit }) => {
                       <div className="col l3 hide-on-med-and-down"></div>
                       <div className="input-field col s12 l6"> 
                           <input id="email" type="email" name="email" className="validate inputBar"/>
-                          <label htmlFor="email">EMAIL</label>
+                          <label htmlFor="email">Username</label>
                       </div>
                       <div className="col l3 hide-on-med-and-down"></div>
                   </div>
@@ -20,7 +20,7 @@ const LoginView = ({ onSubmit }) => {
                       <div className="col l3 hide-on-med-and-down"></div>
                       <div className="input-field col s12 l6"> 
                           <input id="password" type="password" name="password" className="validate inputBar"/>
-                          <label htmlFor="password">PASSWORD</label>
+                          <label htmlFor="password">Password</label>
                       </div>
                       <div className="col l3 hide-on-med-and-down"></div>
                   </div>
