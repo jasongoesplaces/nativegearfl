@@ -25,7 +25,6 @@ const LoginView = ({ onSubmit }) => {
                       <div className="col l3 hide-on-med-and-down"></div>
                   </div>
                   <div>
-                      {/* <a className="button loginSignupBtn" href="/dashboard">LOGIN</a> */}
                       <button className="button loginSignupBtn">LOGIN</button>
                   </div>
               </form>
