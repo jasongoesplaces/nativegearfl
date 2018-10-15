@@ -8,7 +8,7 @@ import FAQ from "./pages/FAQ";
 import Privacy from "./pages/Privacy";
 import Returns from "./pages/Returns";
 import Terms from "./pages/Terms";
-// import Login from "./pages/Login";
+import Admin from "./pages/Admin";
 // import SignUp from "./pages/Signup";
 // import Logout from "./components/logout"
 
@@ -24,6 +24,7 @@ class App extends Component {
           <Route exact path="/privacy" component={Privacy}/>
           <Route exact path="/returns" component={Returns}/>
           <Route exact path="/terms" component={Terms}/>
+          <Route exact path="/admin" component={Admin}/>
           {/* 
           <Route exact path="/login" component={Login} />
           <Route exact path="/signup" component={SignUp} />
