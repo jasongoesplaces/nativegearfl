@@ -13,7 +13,7 @@ const LoginView = ({ onSubmit }) => {
                       <div className="input-field col s12 l6"> 
                           <input id="email" type="email" name="email" className="validate inputBar"/>
                           <label htmlFor="email">Username</label>
-                      </div> 
+                      </div>
                       <div className="col l3 hide-on-med-and-down"></div>
                   </div>
                   <div className="row">
