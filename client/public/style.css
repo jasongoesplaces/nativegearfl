@@ -161,3 +161,82 @@ input.invalid[type=email]:not(.browser-default) {
     top: 5%;
     left: 12%;
 }
+
+
+
+/* Admin Login Styles */
+
+.adminLogo {
+    text-align: center;
+    margin-bottom: 7%;
+    margin-top: 3%;
+}
+
+.adminLogo img {
+    height: 12rem;
+}
+
+.adminLoginText {
+    text-align: center;
+    color: rgb(72, 78, 90);
+}
+
+.button {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-color: rgba(34, 34, 34, 0.774);
+    background-image: none;
+    border-color: #ffffff;
+    border-image-slice: 1;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 0.875rem;
+    line-height: 0.75;
+    padding: 1em 1em;
+    text-shadow: none;
+}
+    
+.button:hover {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    border-color: rgb(48, 184, 241);
+    border-image-slice: 1;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(48, 184, 241);
+}
+
+.buttonContain {
+    text-align: center
+}
+input[type=password]:not(.browser-default) {
+    border-bottom: 1px solid rgb(72, 78, 90);
+}
+input[type=password]:focus + label {
+    color: rgb(72, 78, 90) !important;
+}
+input[type=password]:focus {
+    color: rgb(72, 78, 90) !important;
+}
+input[type=password]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid rgb(72, 78, 90);
+    box-shadow: 0 1px 0 0 rgb(72, 78, 90);
+}
+input.valid[type=password]:not(.browser-default) {
+    border-bottom: 1px solid rgb(72, 78, 90);
+    box-shadow: 0 1px 0 0 rgb(72, 78, 90);
+    color: rgb(72, 78, 90);
+}
+input.invalid[type=password]:not(.browser-default) {
+    color: #F44336;
+}
