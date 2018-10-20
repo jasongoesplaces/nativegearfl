@@ -159,7 +159,7 @@ input.invalid[type=email]:not(.browser-default) {
     position: absolute;
     font-size: 3rem;
     top: 5%;
-    left: 12%;
+    left: 15%;
 }
 
 

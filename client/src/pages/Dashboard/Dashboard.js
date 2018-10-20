@@ -28,7 +28,6 @@ const LoginView = ({ onSubmit }) => {
                       <button className="button loginSignupBtn">LOGIN</button>
                   </div>
               </form>
-            <a className="loginSignupLink" href="/signup">Don't have an account? Signup</a>
           </div>
         </div>
       </div>
