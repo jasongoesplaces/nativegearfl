@@ -8,6 +8,7 @@ class LogOut extends Component {
       this.state = {
           redirect: false
       }
+
   }
 
   componentWillMount() {
@@ -26,5 +27,6 @@ class LogOut extends Component {
     
   }
 }
+
 
 export default withRouter(LogOut);
