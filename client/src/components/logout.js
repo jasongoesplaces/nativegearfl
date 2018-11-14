@@ -10,13 +10,11 @@ class LogOut extends Component {
       }
 
   }
-
   componentWillMount() {
       app.auth().signOut().then((user) => {
           this.setState({ redirect: true })
       })
   }
-
   render() {
     if (this.state.redirect === true) {
         return <Redirect to="/" />
@@ -27,6 +25,4 @@ class LogOut extends Component {
     
   }
 }
-
-
 export default withRouter(LogOut);
