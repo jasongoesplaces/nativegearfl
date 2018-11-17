@@ -1,8 +1,7 @@
 const router = require("express").Router();
-const guideRoutes = require("./guides");
-const activityRoutes = require("./activity")
+const productRoutes = require("./products");
 
-router.use("/guides", guideRoutes);
-router.use("/activity", activityRoutes)
+// Activity routes
+router.use("/products", productRoutes);
 
 module.exports = router;
