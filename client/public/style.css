@@ -1,3 +1,7 @@
+/* Universal Styles */
+body {
+    color: rgb(72, 78, 90)
+}
 /* Navigation Styles */
 nav {
     background-color: #ffffff00;
@@ -161,6 +165,12 @@ input.invalid[type=email]:not(.browser-default) {
     font-size: 3rem;
     top: 5%;
     left: 15%;
+}
+
+/* Product Page Styles */
+.productContainer {
+    margin-top: 5%;
+    margin-bottom: 5%
 }
 
 

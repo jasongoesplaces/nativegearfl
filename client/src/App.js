@@ -14,6 +14,7 @@ import Terms from "./pages/Terms";
 import Admin from "./pages/Admin";
 import Dashboard from "./pages/Dashboard";
 import Logout from "./components/logout";
+import Product from "./pages/Product"
 
 class App extends Component {
   state = { loading: true, authenticated: false, user: null };
@@ -55,6 +56,7 @@ class App extends Component {
           <Route exact path="/terms" component={Terms}/>
           <Route exact path="/logout" component={Logout} /> 
           <Route exact path="/admin" component={Admin}/>
+          <Route exact path="/product" component={Product}/>
           <PrivateRoute
             exact
             path="/dashboard"
