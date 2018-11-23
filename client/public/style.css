@@ -172,7 +172,9 @@ input.invalid[type=email]:not(.browser-default) {
     margin-top: 5%;
     margin-bottom: 5%
 }
-
+.productContainer p {
+    text-align: left
+}
 
 
 /* Admin Login Styles */

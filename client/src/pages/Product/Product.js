@@ -14,7 +14,7 @@ class Returns extends Component {
                 </div>
                 <div className="col s6">
                     <h4>SWAMP - Structured Trucker</h4>
-                    <h6>$23.95</h6>
+                    <h5>$23.95</h5>
                     <p>Color: Royal/White with Orange Stitch</p>
                     <p>Details:</p>
                     <ul>
